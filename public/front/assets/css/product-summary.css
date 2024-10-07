@@ -1,0 +1,215 @@
+.product_summary_section_container {
+  margin-top: 0px;
+}
+
+.product-summary-box {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.delivery-option-details {
+  padding-left: 10px;
+}
+
+.shipment-box {
+  margin-top: 50px;
+}
+
+table {
+    background-color: transparent;
+}
+
+table.timetable_sub {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px !important;
+}
+
+
+.timetable_sub tr:hover {
+    /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); !important; */
+    	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.timetable_sub td {
+    /* border: 1px solid #CDCDCD; */
+    padding: 20px !important;
+    padding-left: 0px !important;
+}
+
+.timetable_sub td {
+    text-align: left;
+    padding: 7px;
+    font-size: 14px;
+    color: #000;
+}
+
+#close {
+    background: url('../images/close_1.png') no-repeat 0px 0px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 42px;
+    top: -13px;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.get-coupon {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: #7f8ff4;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*.btn {
+  display: inline-block;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+.btn--primary {
+  background: #7f8ff4;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 12px 36px;
+}
+.btn--primary:hover {
+  background: #6c7ff2;
+}
+.btn--primary:active {
+  background: #7f8ff4;
+  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+.btn--inside {
+  margin-left: -96px;
+}*/
+
+.form__field {
+  width: 360px;
+  background: #fff;
+  color: #a3a3a3;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+}
+
+.payment-summary-box {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.payment-summary-content ul{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.payment-summary-content ul li {
+  /* background: #E6E4DF; */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  color: #696763;
+  margin-top: 10px;
+  padding: 7px 20px;
+}
+.payment-summary-content ul li:last-child {
+  width: 50%;
+  float:right;
+  margin-bottom: 20px;
+}
+
+.payment-summary-content span {
+  float: right;
+}
+
+.shop_now_button {
+  /*width: 220px;*/
+}
+
+.shop_now_button a:hover {
+  color: #fff;
+}
+
+/* Responsive CSS */
+@media (min-width: 320px) and (max-width: 480px) {
+  .product_summary_section_container {
+    margin-top: 60px;
+  }
+  #close {
+    right: -11px;
+  }
+  .form__field {
+    width: 290px;
+  }
+  .btn--inside {
+    margin-left: calc((100% - 110px) / 2);
+    margin-top: 15px;
+  }
+  .payment-summary-content ul li:last-child {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .product_summary_section_container {
+    margin-top: 100px;
+  }
+  #close {
+    right: -11px;
+  }
+  .btn--inside {
+    margin-left: calc((100% - 110px) / 2);
+    margin-top: 15px;
+  }
+  .payment-summary-content ul li:last-child {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .product_summary_section_container {
+    margin-top: 60px;
+  }
+}

@@ -1,0 +1,32 @@
+.header-social-fb:hover{
+    background-color: #3b5998 !important;
+    color: white !important;
+}
+
+.header-social-twitter:hover{
+    background-color: #00acee !important;
+    color: white !important;
+}
+
+.header-social-instagram:hover{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) !important;
+    color: white !important;
+}
+
+.header-social-linkedin:hover{
+    background-color: #0072b1 !important;
+    color: white !important;
+}
+
+.header-social-youtube:hover{
+    background-color: #FF0000 !important;
+    color: white !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .grid-center-xs{
+        display: grid !important;
+        place-content: center !important;
+    }
+
+
+}

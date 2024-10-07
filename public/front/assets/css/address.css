@@ -1,0 +1,108 @@
+.address_section_container {
+    margin-top: 0px;
+}
+
+.address {
+    margin-top: 0px;
+}
+
+.address-box {
+    width: 70%;
+    background: #FFF;
+    margin: 40px auto;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #ECECEC;
+}
+
+.address-box p {
+    position: relative;
+}
+
+.effect {
+    position: relative;
+}
+
+.effect:before, .effect:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.effect:after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+.address-box:hover {
+    transition: 1.1;
+}
+
+.shop_now_button {
+    margin-top: 20px;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.delete-icon i {
+    color: #F1484E;
+    font-size: 20px;
+}
+
+.aaaa {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.aaaa:hover {
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+/* Responsive Css */
+@media (min-width: 320px) and (max-width: 767px) {
+    .address_section_container {
+        margin-top: 75px;
+    }
+}

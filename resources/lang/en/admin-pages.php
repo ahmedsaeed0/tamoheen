@@ -1,0 +1,26 @@
+<?php
+
+return [
+	'create_new_page' => 'Create New Page',
+    'back'            => 'Back',
+    'edit_page'       => 'Edit page',
+    'title'           => 'Title',
+    'title_arabic'    => 'Title Arabic',
+    'content'         => 'Content',
+    'content_arabic'  => 'Content Arabic',
+    'update'          => 'Update',
+    'create'          => 'Create',
+    'add_new_page'    => 'Add New Page',
+    'pages'           => 'Pages',
+    'status'          => 'Status',
+    'actions'         => 'Actions',
+    'page_active'     => 'Page Active',
+    'page_deactive'   => 'Page Deactive',
+    'active'          => 'Active',
+    'deactive'        => 'Deactive',
+    'view_page'       => 'View Page',
+    'edit_page'       => 'Edit Page',
+    'delete_page'     => 'Delete Page',
+    'confirm_delete'  => 'Confirm Delete ?',
+    'page'            => 'Page',
+];
